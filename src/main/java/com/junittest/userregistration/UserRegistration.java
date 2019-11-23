@@ -40,19 +40,26 @@ public class UserRegistration {
 
     }
 
-    public boolean validEmailId(String emailId)
-    {
-        pattern=Pattern.compile("^[a-zA-Z0-9]([._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2}){0,1}$");
-        matcher=pattern.matcher(emailId);
-        if(matcher.matches()){
+    public boolean validEmailId(String emailId) {
+        pattern = Pattern.compile("^[a-zA-Z0-9]([._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2}){0,1}$");
+        matcher = pattern.matcher(emailId);
+        if (matcher.matches()) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }
 
 
+    public boolean validPassword(String password) {
+        pattern = Pattern.compile("^[a-zA-Z0-9]{8,}$");
+        matcher = pattern.matcher(password);
+        if (matcher.matches()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
 
