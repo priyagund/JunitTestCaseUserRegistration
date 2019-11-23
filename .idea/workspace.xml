@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298d12a0-58a2-4686-9ec4-7076aac0fe36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.junittest.userregistration.UserpasswordCheck.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.junittest.userregistration.UserpasswordCheck.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.junittest.userregistration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.junittest.userregistration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.junittest.userregistration.UserpasswordCheck.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.junittest.userregistration.UserpasswordCheck.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserpasswordCheck.testValidPassWord">
+  <component name="RunManager" selected="Gradle.UserpasswordCheck">
     <configuration name="UserEmailIdTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserpasswordCheck.testValidPassWord" />
         <item itemvalue="Gradle.UserpasswordCheck" />
+        <item itemvalue="Gradle.UserpasswordCheck.testValidPassWord" />
         <item itemvalue="Gradle.UserEmailIdTest" />
         <item itemvalue="Gradle.UserRegistrationTest" />
         <item itemvalue="Gradle.UserRegistrationTest.givenMobNumber_isValid_shouldRetunTrue" />
