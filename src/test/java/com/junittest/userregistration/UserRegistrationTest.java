@@ -85,5 +85,35 @@ public class UserRegistrationTest {
         Assert.assertFalse(value);
     }
 
+    @Test
+    public void givenMobNumber_isValid_shouldRetunTrue() {
+        boolean value = userRegistration.checkMobNumber("91 7066323266");
+        Assert.assertTrue(value);
+    }
+
+    @Test
+    public void givenMobNumber_ifNoCountryCode_shouldReturnFalse() {
+        boolean value = userRegistration.checkMobNumber("7066323266");
+        Assert.assertFalse(value);
+    }
+
+    @Test
+    public void givenMobNumber_ifLessThanTenNumber_shouldReturnFalse() {
+        boolean value = userRegistration.checkMobNumber("91 7066");
+        Assert.assertFalse(value);
+    }
+
+    @Test
+    public void givenMobNumber_ifSpaceIsNotAvailable_shouldReturnFalse() {
+        boolean value = userRegistration.checkMobNumber("917066323266");
+        Assert.assertFalse(value);
+    }
+
+    @Test
+    public void givenMobNumber_ifSpecialCharacter_shouldReturnFalse()
+    {
+        boolean value =userRegistration.checkMobNumber("91 706632@3232");
+        Assert.assertFalse(value);
+    }
 
 }
