@@ -71,17 +71,15 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenLastName_minimumTwoChar_shouldReturnFalse()
-    {
-        boolean value =userRegistration.validateLastName("un");
+    public void givenLastName_minimumTwoChar_shouldReturnFalse() {
+        boolean value = userRegistration.validateLastName("un");
         Assert.assertFalse(value);
 
     }
 
     @Test
-    public void givenLastName_specialChar_shouldReturnFalse()
-    {
-        boolean value =userRegistration.validateLastName("gund@");
+    public void givenLastName_specialChar_shouldReturnFalse() {
+        boolean value = userRegistration.validateLastName("gund@");
         Assert.assertFalse(value);
     }
 

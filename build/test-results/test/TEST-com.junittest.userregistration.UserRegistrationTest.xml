@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.junittest.userregistration.UserRegistrationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-11-23T09:02:36" hostname="admin105-desktop" time="0.007">
+<testsuite name="com.junittest.userregistration.UserRegistrationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-11-23T09:45:07" hostname="admin105-desktop" time="0.004">
   <properties/>
   <testcase name="givenFirstName_whenAllCapitalLetter_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="giveFirstName_whenContainsNumber_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="giveFirstName_whenContainsNumber_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_minimumTwoChar_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_whenAllLowerCase_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_whenAllLowerCase_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_isStartWithCapital_shouldReturnTrue" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_whenStartWithCapiatl_shouldReturnTrue" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenMinimumThreeCharacter_shouldReturnTrue" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenAllLowerCaseCharacter_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenAllLowerCaseCharacter_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="giveFirstName_whenTwoCharacter_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_whenMinimumThreeChar_shouldReturnTrue" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_whenAllCapitalLetter_shouldReturnFalse" classname="com.junittest.userregistration.UserRegistrationTest" time="0.0"/>

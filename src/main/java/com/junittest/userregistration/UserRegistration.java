@@ -20,7 +20,7 @@ public class UserRegistration {
     }
 
     public boolean validateLastName(String lastName) {
-        pattern = Pattern.compile("^[]A-Z]{1}[a-z]{2,}$");
+        pattern = Pattern.compile("^[A-Z]{1}[a-z]{2,}$");
         matcher = pattern.matcher(lastName);
         if (matcher.matches()) {
             return true;
@@ -29,6 +29,16 @@ public class UserRegistration {
         }
     }
 
+    public boolean checkMobNumber(String mobNumber) {
+        pattern = Pattern.compile("^[0-9]{2}\\s[0-9]{10}");
+        matcher = pattern.matcher(mobNumber);
+        if (matcher.matches()) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 }
 
 
