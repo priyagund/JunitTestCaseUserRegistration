@@ -20,7 +20,7 @@ public class UserRegistration {
     }
 
     public boolean validateLastName(String lastName) {
-        pattern = Pattern.compile("^[]A-Z]{1}[a-z]{2,}$");
+        pattern = Pattern.compile("^[A-Z]{1}[a-z]{2,}$");
         matcher = pattern.matcher(lastName);
         if (matcher.matches()) {
             return true;
@@ -37,7 +37,22 @@ public class UserRegistration {
         } else {
             return false;
         }
+
     }
+
+    public boolean validEmailId(String emailId)
+    {
+        pattern=Pattern.compile("^[a-zA-Z0-9]([._+]{0,1}[a-zA-Z0-9])*[@]{1}[a-zA-Z0-9]{1,}[.]{1}[a-zA-Z]{2,3}([.]{1}[a-zA-Z]{2}){0,1}$");
+        matcher=pattern.matcher(emailId);
+        if(matcher.matches()){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+
 }
 
 
