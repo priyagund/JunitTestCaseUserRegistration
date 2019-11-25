@@ -52,14 +52,11 @@ public class UserRegistration {
 
 
     public boolean validPassword(String password) {
-<<<<<<< HEAD
-        pattern = Pattern.compile("^[a-zA-Z0-9]{8,}$");
-=======
-       pattern = Pattern.compile("(?=.*\\d)(?=.*[a-z]?)(?=.*[A-Z])(?=.*[@#$%]){1}.{8,}$");
-       // pattern=Pattern.compile("^(?=.*?[A-Z]).{8,}$");
+
+        pattern = Pattern.compile("(?=.*\\d)(?=.*[a-z]?)(?=.*[A-Z])(?=.*[@#$%]){1}.{8,}$");
+        // pattern=Pattern.compile("^(?=.*?[A-Z]).{8,}$");
 
 
->>>>>>> uc6_password_check
         matcher = pattern.matcher(password);
         if (matcher.matches()) {
             return true;
@@ -67,10 +64,8 @@ public class UserRegistration {
             return false;
         }
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> uc6_password_check
+
 }
 
 
