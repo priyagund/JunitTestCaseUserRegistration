@@ -34,6 +34,7 @@ public class UserpasswordCheck {
         Object[][] data = new Object[][]
 
                 {{"Priyagund@123", true},
+                        {"@priyagund123",false},
                         {"priya", false},
                         {"priyagund", false},
                         {"priyagund", false},
